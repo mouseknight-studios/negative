@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DodgeRoll : MonoBehaviour
 {
+
     //Committing to master
     Rigidbody2D rigid;
 
@@ -18,6 +19,7 @@ public class DodgeRoll : MonoBehaviour
     private Vector3 change;
 
     private bool dodged;
+
     // Start is called before the first frame update
 
 
