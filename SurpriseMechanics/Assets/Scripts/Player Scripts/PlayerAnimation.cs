@@ -25,8 +25,8 @@ public class PlayerAnimation : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
 
-        Debug.Log("Axis X value: " + change.x);
-        Debug.Log("Axis Y value: " + change.y);
+        //Debug.Log("Axis X value: " + change.x);
+        //Debug.Log("Axis Y value: " + change.y);
 
         //If the player is not moving
         if (change != Vector2.zero)
