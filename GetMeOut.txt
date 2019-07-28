@@ -1,1 +1,0 @@
-Hey we are testing the git commands in the test environment.
