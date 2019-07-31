@@ -17,7 +17,7 @@ public class FireProjectile : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire"))
         {
-            Instantiate(projectile, transform.position, transform.rotation);
+            Instantiate(projectile, firePoint.position, firePoint.transform.rotation);
         }
     }
 }
