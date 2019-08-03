@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
 
-        rigid.velocity = transform.up * 5f;
+        rigid.velocity = transform.up * 10f;
         Debug.Log("Has fired");
     }
 
