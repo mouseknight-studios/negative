@@ -15,6 +15,7 @@ public class FireProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If the fire button is pressed, the projectile is immediately instantiated where the fire point is
         if (Input.GetButtonDown("Fire"))
         {
             Instantiate(projectile, firePoint.position, firePoint.transform.rotation);
